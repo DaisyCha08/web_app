@@ -1,13 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>web-frontend</title>
+    <title>McLaren Motors</title>
+
+    <!-- ✅ Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ Custom Tailwind Config (for colors, font, etc.) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#00ff88',   // Neon green accent
+              dark: '#0b0f0b',      // Deep dark background
+              accent: '#064e3b',    // Dark green accent
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Optional: Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+
+  <body class="bg-dark text-white font-sans">
     <div id="root"></div>
+
+    <!-- Your React bundle -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
