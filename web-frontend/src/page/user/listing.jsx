@@ -1,14 +1,15 @@
 import React from "react";
 
 // ✅ Import images from src/assets
-import img750S from "../../assets/2024-Mclaren-750S.jpg";
-import img750SSpider from "../../assets/2024-Mclaren-750S-Spider.jpg";
-import imgGTS from "../../assets/2024-Mclaren-GTS.jpg";
-import imgJC96 from "../../assets/2025-Mclaren-750S-JC96-Edition.jpg";
-import imgJC96Spider from "../../assets/2025-Mclaren-750S-Spider-JC96-Edition.jpg";
-import imgArtura from "../../assets/2025-Mclaren-Artura-Spider.jpg";
-import imgEndurance from "../../assets/2025-Mclaren-Project-Endurance-Le-Mans-Hypercar.jpg";
+import img750S from "../../assets/2024-McLaren-750S.jpg";
+import img750SSpider from "../../assets/2024-McLaren-750S-Spider.jpg";
+import imgGTS from "../../assets/2024-McLaren-GTS.jpg";
+import imgJC96 from "../../assets/2025-McLaren-750S-JC96-Edition.jpg";
+import imgJC96Spider from "../../assets/2025-McLaren-750S-Spider-JC96-Edition.jpg";
+import imgArtura from "../../assets/2025-McLaren-Artura-Spider.jpg";
+import imgEndurance from "../../assets/2025-McLaren-Project-Endurance-Le-Mans-Hypercar.jpg";
 import imgW1 from "../../assets/2025-McLaren-W1.jpg";
+
 
 const Listing = () => {
   const cars = [
